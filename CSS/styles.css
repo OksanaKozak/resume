@@ -139,13 +139,14 @@ body {
 /* saidebar style */
 
 .sidebar {
-    background-color: #1E2939;
+    background-color: #476188;
     padding-top: 40px;
     width: 370px;
 }
 .photo {
-    width: 370px;
+    width: 280px;
     margin-bottom: 50px;
+    margin-left: 10px;
 }
 .contacts,
 .tech-skills,
@@ -181,7 +182,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;            
-    color: #565e6a;
+    color: #d86015;
 }
 .tech-scills-list,
 .skills-list 

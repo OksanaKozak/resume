@@ -1,223 +1,104 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f5f7fa;
+    background-color: #F8F8FF;
+    color: #303030;
 }
 /* main styles */
-.main {
+main {
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
     margin: 0 auto;
 }
 .main-content {
-    /* background-color: FFFFFF; */
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 1);
-    padding: 70px 70px;
+    box-shadow: 6px 6px 20px rgb(34, 33, 33);
+    padding: 55px 70px;
 }
-.about {
-    margin-bottom: 40px;
-}
+/* ------------------------- */
 .about-name {
-    font-style: normal;
-    /* font-weight: 700; */
     font-size: 40px;
-    /* line-height: 55px; */
-    color: #303030;
-    margin-bottom: 25px;
 }
 .about-position {
-    font-style: normal;
-    /* font-weight: 700; */
     font-size: 16px;
-    /* line-height: 17px; */
-    color: #303030;
-    margin-bottom: 25px;
-}
-.about-title {
-    color: #303030;
 }
 .about-description {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    /* line-height: 24px; */
-    color: #303030;
-    /* width: 500px; */
+    line-height: 1.63;
+    margin-bottom: 30px;
 }
+/* ---------------------------- */
 
-/* .projects {
-    
-    width: 650px;
-} */
-.projects-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    /* line-height: 27px; */
-    color: #303030;
-    margin-bottom: 10px;
-}
 .projekts-list {
     padding: 0;
     margin-left: 15px;
-    color: #303030;
+    margin-bottom: 30px;
 }
 .projects-item {
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
-    /* line-height: 24px; */
-    color: #303030;
+    line-height: 1.6;
 }
-.projects,
 .projects-link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    /* line-height: 24px; */
-    color: #303030;
     text-decoration: none;
-    margin-bottom: 50px;
-    /* width: 550px; */
-}
-.projects-link {
-    margin-left: 10px;
-}
-.projekts-bracket {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    /* line-height: 24px; */
-    color: #303030;
-}
-.work-title {
-    color: #303030;
-}
-.work-position {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 0.5;
-    color: #303030;
-    /* margin-bottom: 5px; */
-}
-.work-compani-2 {
-    margin-top: 15px;
-    margin-bottom: 20px;
+    color: inherit;
 }
 
+/* ---------------------------- */
+.work-position {
+    font-size: 16px;
+    line-height: 1.5;
+}
 .period {
-    font-style: normal;
-    font-weight: 400;
     font-size: 12px;
     line-height: 0.5;
-    color: #303030;
     margin-bottom: 10px;
 }
-/* .line {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #000000;
-} */
 .work-list {
     padding: 0;
     margin-left: 15px;
+    margin-bottom: 30px;
 }
 .work-list-item {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    /* line-height: 24px; */
-    color: #303030;
+    line-height: 1.5;
 }
-.education-title {
-    margin-top: 40px;
-    /* width: 330px; */
-    color: #303030;
-}
-/* width - ничего зрительно не изменил, но он есть */
-.work-position {
-    font-size: 14px;
-    color: #303030;
-}
-/* .organization {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 0.4;
-    color: #FB6D3A;
-} */
-
-
-/* saidebar style */
+/* ------------------------ */
 
 .sidebar {
-    background-color: #ccbab6;
-    padding-top: 40px;
-    width: 450px;
+    background-color:rgb(64%, 72%, 96%, 0.5);
+    padding-top: 70px;
+    width: 470px;
 }
 .photo {
     width: 220px;
     margin: 10px auto 50px;
     display: flex;
     border-radius: 7px;
+    border: 2px solid #2e77b3;
 }
 .contacts,
-.tech-skills,
 .skills
- {
+{
     margin-left: 20px;
-}
-.skills {
-    margin-top: 40px;
 }
 .contacts {
     margin-bottom: 40px;
 }
-
-.sidebar-title {
-    color: #aae9eb;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    /* line-height: 27px; */
-    margin-bottom: 10px;
-}
 .contact-tape {
-    font-style: normal;
-    /* font-weight: 700; */
     font-size: 14px;
-    /* line-height: 24px;  */
-    color: #aae9eb;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .contact-link {
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    /* line-height: 24px;             */
-    color: #303030;
+    text-decoration: none;
+    color: #2e77b3;
 }
-.tech-scills-list,
-.skills-list 
-{
-    color: #aae9eb;
+.skills-list {
     padding: 0;
     margin: 17px;
 }
-.tech-skills-item,
-.skills-item
- {
-    color: #303030;
-}
-.tech-skills-text,
-.skills-text
- {
-    color: #aae9eb;
-    font-style: normal;
-    font-weight: 400;
+.skills-item {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.6;
 }
+
